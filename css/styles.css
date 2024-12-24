@@ -1,0 +1,90 @@
+@import url(./vars.css);
+@import url(./fonts.css);
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Francois+One&family=PT+Sans:wght@400;700&family=Staatliches&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--color-background);
+  font-family: var(--font-primary);
+}
+
+.paper {
+  width: var(--container-width);
+  background: var(--color-paper);
+  box-shadow: 0 4px 6px var(--color-shadow);
+  border: 1px solid var(--color-border);
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  margin-top: 13px;
+  margin-left: var(--margin-main);
+}
+
+.title {
+  font-family: var(--font-subtitle);
+  font-size: var(--font-size-header);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title-header {
+  margin-left: 100px;
+  font-family: var(--font-header);
+  font-weight: 400;
+  font-size: var(--font-size-header);
+}
+
+.img {
+  margin-left: 600px;
+}
+
+/* Main */
+.main {
+  width: var(--main-width);
+  margin: var(--gap-large) 0 90px var(--margin-main);
+  padding-bottom: 90px;
+  gap: var(--gap-large);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+}
+
+.title-main {
+  display: inline-block;
+  font-family: var(--font-title);
+  font-weight: 400;
+  font-size: var(--font-size-title);
+  text-transform: uppercase;
+}
+
+.chapter {
+  position: relative;
+  top: -20px;
+  font-family: var(--font-chapter);
+  font-weight: 300;
+  font-size: var(--font-size-chapter);
+  text-transform: none;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.fatty {
+  font-weight: 700;
+}
+
+.highlight {
+  background-color: var(--color-highlight);
+}
+
+.italic {
+  font-style: italic;
+}

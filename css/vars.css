@@ -1,0 +1,28 @@
+:root {
+  /* Кольори */
+  --color-background: aliceblue;
+  --color-paper: white;
+  --color-border: #ddd;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-highlight: #dadada;
+
+  /* Шрифти */
+  --font-primary: "PT Sans", sans-serif;
+  --font-title: "Francois One", sans-serif;
+  --font-header: "Staatliches", sans-serif;
+  --font-subtitle: "Tourney", sans-serif;
+  --font-chapter: "Farro", sans-serif;
+
+  /* Разміри */
+  --container-width: 1440px;
+  --main-width: 1200px;
+  --font-size-main: 28px;
+  --line-height-main: 48px;
+  --font-size-title: 36px;
+  --font-size-header: 22px;
+  --font-size-chapter: 20px;
+
+  /* Відступи */
+  --gap-large: 70px;
+  --margin-main: 120px;
+}
